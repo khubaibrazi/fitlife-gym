@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitLife Gym</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>FitLife</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#trainers">Trainers</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header id="home">
+  <h1>Transform Your Body. Build Confidence.</h1>
+  <p>Join FitLife Gym and start your fitness journey today.</p>
+  <button onclick="scrollToContact()">Join Now</button>
+</header>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <h2>Our Services</h2>
+
+  <div class="container">
+    <div class="card">
+      <img src="images/weight.jpg">
+      <h3>Weight Training</h3>
+      <p>Build strength with expert trainers.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/cardio.jpg">
+      <h3>Cardio</h3>
+      <p>Boost stamina and heart health.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/trainer.jpg">
+      <h3>Personal Trainer</h3>
+      <p>Custom workout plans for you.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About Us</h2>
+  <p>
+    FitLife Gym helps individuals transform their lives through professional training,
+    modern equipment, and personalized fitness programs.
+  </p>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+  <h2>Membership Plans</h2>
+
+  <div class="container">
+    <div class="card">
+      <h3>Basic</h3>
+      <p>Gym Access</p>
+      <h4>3000 PKR</h4>
+    </div>
+
+    <div class="card">
+      <h3>Standard</h3>
+      <p>Gym + Cardio + Trainer</p>
+      <h4>5000 PKR</h4>
+    </div>
+
+    <div class="card">
+      <h3>Premium</h3>
+      <p>All Services + Personal Coach</p>
+      <h4>8000 PKR</h4>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section class="trainers" id="trainers">
+  <h2>Our Trainers</h2>
+
+  <div class="container">
+    <div class="card">
+      <img src="images/trainer.jpg">
+      <h3>Ali Khan</h3>
+      <p>Strength Coach</p>
+    </div>
+
+    <div class="card">
+      <img src="images/trainer.jpg">
+      <h3>Ahmed Raza</h3>
+      <p>Cardio Expert</p>
+    </div>
+
+    <div class="card">
+      <img src="images/trainer.jpg">
+      <h3>Usman Ali</h3>
+      <p>Personal Trainer</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>What Clients Say</h2>
+
+  <div class="container">
+    <div class="card">“I lost 10kg in 3 months!” – Ahmed</div>
+    <div class="card">“Best gym experience ever.” – Ali</div>
+    <div class="card">“Highly recommended.” – Usman</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="error"></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 FitLife Gym</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
