@@ -1,22 +1,31 @@
-# FitLife Gym Website
+# FitLife Gym
 
-A responsive frontend concept for a gym or fitness business, built with HTML, CSS, and vanilla JavaScript.
+A responsive frontend concept for a modern gym and fitness business, built with HTML, CSS, and vanilla JavaScript.
 
 ## Live Demo
 
 https://neuroforgeweb.netlify.app
 
+## Overview
+
+FitLife was created as a complete landing-page experience for a fitness brand. The project focuses on clear visual hierarchy, responsive layouts, structured service presentation, and a simple contact experience.
+
 ## Implemented Features
 
-- Responsive layout for mobile and desktop
-- Dark fitness-focused interface
-- Navigation to Services, About, Pricing, Trainers, and Contact sections
+- Responsive desktop and mobile layout
+- Fitness-focused dark interface
+- Hero and call-to-action sections
+- Services presentation
+- About section
+- Pricing plans
+- Trainer showcase
+- Contact section
 - Client-side contact-form validation
-- Smooth scrolling to the contact section
+- Smooth in-page navigation
 
-> The contact form is a frontend demonstration. It validates the name and email fields but does not send or store submissions.
+> The contact form is a frontend demonstration. It validates user input but does not send or store submissions.
 
-## Technologies
+## Technology
 
 - HTML5
 - CSS3
@@ -37,8 +46,17 @@ git clone https://github.com/khubaibrazi/fitlife-gym.git
 cd fitlife-gym
 ```
 
-Open `index.html` in a browser.
+Open `index.html` in your browser.
+
+## What This Project Demonstrates
+
+- Responsive frontend development
+- Visual hierarchy and layout composition
+- Form validation with JavaScript
+- Building a complete marketing-style website without a framework
 
 ## Author
 
-Khubaib Razi
+**Khubaib Razi**
+
+- GitHub: https://github.com/khubaibrazi
